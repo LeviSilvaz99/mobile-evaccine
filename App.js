@@ -1,13 +1,22 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, SafeAreaView, StyleSheet, Text, TextInput } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+    <SafeAreaView style={styles.container}>
+      
+      <Text>Cadastro eVaccinasda</Text>
+      <TextInput placeholder="Nome"></TextInput>
+      <TextInput placeholder="CPF"></TextInput>
+      <TextInput placeholder="Telefone"></TextInput>
+      <TextInput placeholder="e-mail"></TextInput>
+      <TextInput placeholder="Idade"></TextInput>
+      <TextInput placeholder="Data de Nascimento"></TextInput>
+      <Button title="CADASTRAR"></Button>
       <StatusBar style="auto" />
-    </View>
+    
+    </SafeAreaView>
   );
 }
 
@@ -18,4 +27,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  input: {
+    
+  }
 });
