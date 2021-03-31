@@ -13,7 +13,7 @@ export default function App() {
       <TextInput placeholder="e-mail"></TextInput>
       <TextInput placeholder="Idade"></TextInput>
       <TextInput placeholder="Data de Nascimento"></TextInput>
-      <Button title="CADASTRAR"></Button>
+      <Button title="CADASTRAR."></Button>
       <StatusBar style="auto" />
     
     </SafeAreaView>
@@ -28,6 +28,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   input: {
-    
+
   }
 });
